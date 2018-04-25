@@ -5,11 +5,11 @@ public class Numbers {
 	public static void main(String args[]) {
 		
 		int numArr[] = {1,10,11,45,32,18,94,57,3,33};
-		findLargest2ndLarget(numArr);		
+		findLargest2ndLargest(numArr);		
 		
 	}
 	
-	public static void findLargest2ndLarget(int []numArr) {
+	public static void findLargest2ndLargest(int []numArr) {
 		int largestNum=0;
 		int secondLargestNum=0;
 		int counter=0;
