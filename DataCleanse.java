@@ -1,3 +1,5 @@
+// This programs the "|" as a value in a pipe separated file. 
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -12,7 +14,7 @@ public class DataCleanse {
 	    String delimiter = "\\|";
 	    
 		try {
-	    	br = new BufferedReader(new FileReader("C:\\Users\\sandeep.das02\\Desktop\\sample1.txt"));
+	    	br = new BufferedReader(new FileReader("C:\\Users\NIBEDITA\\Desktop\\sample1.txt"));
 	    	
 	    	String fieldNames []= br.readLine().split("\\|");
 	    	for(int j=0;j<fieldNames.length;j++)System.out.print("Column["+j+"]:"+fieldNames[j]+"\t");
